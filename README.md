@@ -1,6 +1,6 @@
-# Laravel Docs Workflow for Alfred
+# Alfred Workflow - Open in Visual Studio Code
 
-An ultra-fast Laravel docs search workflow for [Alfred 3+](https://www.alfredapp.com).
+An [Alfred 4](https://www.alfredapp.com/) workflow opening files or folders with [Visual Studio Code](https://code.visualstudio.com/).
 
 ![Screenshot](screenshot.png)
 
@@ -12,19 +12,26 @@ An ultra-fast Laravel docs search workflow for [Alfred 3+](https://www.alfredapp
 
 ## Usage
 
-Just type `ld` followed by your search query.
+Just type `code` followed by your search query.
 
+```console
+code <query>
 ```
-ld <query>
-ld preview mailables
-```
 
-Either press `⌘Y` to Quick Look the result, or press `<enter>` to open it in your web browser.
+Press `<enter>` to open the directory with your Visual Studio Code.
 
-## Changing Branches
+## Change IDE Editor
 
-By default this workflow searches the `master` branch of the docs. However, you can change that to any branch listed on [laravel.com/docs](https://laravel.com/docs).
+You can easily change the IDE in which you open the folder by updating the `cli` execution path.
 
-1. Go to the _Laravel Docs_ workflow in your Alfred preferences
-2. Click the `[𝝌]` icon
-3. Set the value of `branch` variable to your desired version (e.g. `8.x`)
+For example setting it to `/usr/local/bin/subl` will open your directory with Sublime.
+
+![Screenshot](screenshot2.png)
+
+## Troubleshoot
+
+### Nothing happens?
+
+In this case open the [Alfred Debugger Utility](https://www.alfredapp.com/help/workflows/utilities/debug/) and see what error is thrown. A common use case can be that your IDE execution file doesn't exist.
+
+![Screenshot](screenshot3.png)
