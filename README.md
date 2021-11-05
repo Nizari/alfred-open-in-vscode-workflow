@@ -2,7 +2,7 @@
 
 An [Alfred 4](https://www.alfredapp.com/) workflow opening files or folders with [Visual Studio Code](https://code.visualstudio.com/).
 
-![Screenshot](screenshot.png)
+![Screenshot](images/screenshot.png)
 
 **Note: [Alfred Powerpack](https://www.alfredapp.com/powerpack/) is required to use workflows.**
 
@@ -20,7 +20,7 @@ cli => /usr/local/bin/code
 wds => /Users/nizari91/Development/http/app,/Users/nizari91/Development/http/vue
 ```
 
-![Screenshot](screenshot4.png)
+![Screenshot](images/screenshot4.png)
 
 ## Usage
 
@@ -38,7 +38,7 @@ You can easily change the IDE in which you open the folder by updating the `cli`
 
 For example setting it to `/usr/local/bin/subl` will open your directory with Sublime.
 
-![Screenshot](screenshot2.png)
+![Screenshot](images/screenshot2.png)
 
 ## Troubleshoot
 
@@ -46,4 +46,4 @@ For example setting it to `/usr/local/bin/subl` will open your directory with Su
 
 In this case open the [Alfred Debugger Utility](https://www.alfredapp.com/help/workflows/utilities/debug/) and see what error is thrown. A common use case can be that your IDE execution file doesn't exist.
 
-![Screenshot](screenshot3.png)
+![Screenshot](images/screenshot3.png)

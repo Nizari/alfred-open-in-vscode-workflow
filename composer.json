@@ -1,7 +1,9 @@
 {
     "name": "nizari/alfred-open-in-vscode",
     "description": "An Alfred 4 workflow for quickly opening directories in Visual Studio Code",
-    "type": "alfred-workflow",
+    "version": "0.3.0",
+    "keywords": ["alfred", "alfred-workflow", "vscode"],
+    "license": "MIT",
     "authors": [
         {
             "name": "Daan Hage",
